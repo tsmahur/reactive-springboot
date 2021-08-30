@@ -1,6 +1,6 @@
 # reactive-springboot
 
-##This project contains :
+## This project contains :
 
 1. Asynchronous and non blocking vs Synchronous and blocking concept
 2. Functional endpoints using handler and router
@@ -10,9 +10,9 @@
 6. BeanUtils.copyProperties() -> model to entity and vice-versa
 7. NettyWebServer
 
-##Endpoints:
+## Endpoints:
 
-###1. MongoDB Reactive Examples :->
+### 1. MongoDB Reactive Examples :->
     GET /products
     GET /products/{id}
     GET /products/product-range/?min=10&max=20
@@ -28,11 +28,11 @@
       }
     DELETE /products/{id}
 
-###2. Asynchronous and non blocking vs Synchronous and blocking concept
+### 2. Asynchronous and non blocking vs Synchronous and blocking concept
     GET /customers/withoutStream -> conventional
     GET /customers/stream -> Reactive programming | Webflux
     
-###3. Functional endpoints
+### 3. Functional endpoints
     GET router/customers 
     GET /router/customer/{input}
     POST /router/customer/save
